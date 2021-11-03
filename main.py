@@ -3,7 +3,10 @@
 W.I.P
 
 """
+import sys
+
 import pygame
+from sys import exit
 from pygame.locals import *
 
 if not pygame.get_init():
@@ -22,3 +25,5 @@ while running:
             running = False
             pygame.quit()
             print("closing mikubros")
+            sys.exit()
+    pygame.display.update()
