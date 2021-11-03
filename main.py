@@ -27,7 +27,6 @@ pygame.display.set_caption("mikubros")
 icon = pygame.image.load('assets/icon.png')
 pygame.display.set_icon(icon)
 
-# initialisation of some var
 running = True
 clock = pygame.time.Clock()
 game = Game()
