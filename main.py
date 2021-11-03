@@ -15,6 +15,7 @@ if not pygame.get_init():
 
 screen = pygame.display.set_mode((1280, 720))
 pygame.display.set_caption("mikubros")
+icon = pygame.image.load('assets/icon.png')
 
 # initialisation of some var
 running = True
