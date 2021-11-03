@@ -26,4 +26,5 @@ while running:
             pygame.quit()
             print("closing mikubros")
             sys.exit()
+    # updating content
     pygame.display.update()
